@@ -14,7 +14,7 @@ def calculate_bmi(weight, height, system='metric'):
     """                                                                                                                                                            
     Return the Body Mass Index (BMI) for the given weight, height, and measurement systems.                                                                                                                                                          
     """                                                                                                                                                            
-    if system == 'metric'
+    if system == 'metric':
         bmi = (weight / (height ** 2))                                                                                                                             
     else:                                                                                                                                                          
         bmi = 703 * (weight / (height ** 2))                                                                                                                       
